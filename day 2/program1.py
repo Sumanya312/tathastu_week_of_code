@@ -16,10 +16,11 @@ else:
     print("number is not prime")
 
 t = n
+size = len(str(t))
 sum = 0
 while(t):
     d=t%10
-    sum = sum  + (d**3)
+    sum = sum  + (d**size)
     t=t//10
 
 if(sum==n):
