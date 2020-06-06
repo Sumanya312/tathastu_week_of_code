@@ -77,7 +77,7 @@ def jarvis(data):
     elif "where is" in data:
         data = data.split(" ")
         location = data[2]
-        speak("Hold on nitesh, I will show you where " + location + " is.")
+        speak("Hold on user, I will show you where " + location + " is.")
         wb.open_new_tab("https://www.google.nl/maps/place/" + location + "/&amp;")
     else :
         speak(",,,,,,,I did not get what you said !")
@@ -109,7 +109,7 @@ def jarvis(data):
 time.sleep(0.5)
 x=0
 print("start..")
-speak("Hi! Nitesh, what can I do for you?")
+speak("Hi! user, what can I do for you?")
 data = recordAudio()
 jarvis(data)
 speak("Turning off the program.")
