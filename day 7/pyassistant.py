@@ -9,6 +9,10 @@
 # if faced with any error try
 # pip install future
 
+# if PyAudio shows error in installing try
+# pip install pipwin
+# pipwin install PyAudio
+
 # while running, The code will take some time as it relies on online services.
 
 import webbrowser as wb
